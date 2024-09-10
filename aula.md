@@ -52,3 +52,7 @@ Apresentar os dados
 -- [*] Criar, passar argumento
 -- [*] Executar
 -- [*] Arroy Function / name function
+
+## Estrutura de repetição
+
+-- [*] while
