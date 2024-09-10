@@ -20,3 +20,17 @@ Estrutura de repetição (for, while)
 Coleta dos dados
 Preencher os dados (manipular, alterar ...)
 Apresentar os dados
+
+## Escopos e variáveis
+
+
+
+## Tipos de dados
+
+Strings (textos) "" '' 
+Number: 2 1.4
+
+## Operadores
+
+Operadores de atribuição de valores
+ 
