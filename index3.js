@@ -1,6 +1,6 @@
 // Para utilizar o enquirer agente faz o seguinte
 
-const {select, input} = require("@inquirer/prompts")
+const {select, input, checkbox} = require("@inquirer/prompts")
 
 let meta = {
     value: "Tomar 3L de água por dia"
@@ -21,6 +21,32 @@ const cadastrarMeta = async () => {
     )
 }
 
+const listarMetas = async () => {
+    const respostas = await checkbox({
+        message: "Use as setas para mudar de meta, o espaço para marcar ou desmarcar e o enter para finalizaressa etapa",
+        choices: [...metas], // Escolhas
+        instructions: false
+    })
+
+    if(respostas.length == 0) {
+        console.log("Nenhuma meta selecionada!")
+        return
+    }
+    // DESMARCAR META
+    metas.forEach((m) => {
+        m.checked = false
+    })
+    // MARCAR META
+    respostas.forEach((resposta) => {
+        const meta = metas.find((m) => {
+            return m.value == resposta
+        })
+
+        meta.checked = true
+    })
+
+    console.log("Meta(s) marcadas como concluida(s)")
+}
 // =======================================
 
 const start = async () => {
@@ -47,7 +73,7 @@ const start = async () => {
                 console.log(metas)
                 break
             case "Listar":
-                console.log("Vamos listar")
+                await listarMetas()
                 break
             case "Sair":
                 return
