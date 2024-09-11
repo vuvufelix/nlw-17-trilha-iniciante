@@ -35,7 +35,8 @@ Apresentar os dados
 ## Operadores
 
 -- [*] Operadores de atribuição de valores
--- [*] Operador de concatenação
+-- [*] Operador de concatenação: +
+-- [*] Operadores de comparação: == != <= >= < >
 
 ## Objetos
 
@@ -60,6 +61,7 @@ Apresentar os dados
 ## Condicionais 
 
 -- [*] switch
+-- [*] if/else
 
 ## Métodos em nodejs
 
