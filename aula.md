@@ -65,3 +65,7 @@ Apresentar os dados
 
 -- [*] Importando módulos (require, commom js)
 -- [*] Biblioteca "inquirer" para criar promps interativos
+
+## Programação assícrona e Promessas
+
+Use de funções assíncronas (async/await) 
