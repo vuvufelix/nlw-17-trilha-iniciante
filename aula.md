@@ -48,7 +48,7 @@ Apresentar os dados
 ## Arrays
 
 -- [*] Lista que contém qualquer tipo de dados
--- [*] Métodos de array: push, [find, forEach, filter] : ROF (Rayher Order Functions) 
+-- [*] Métodos de array: push, [find, forEach, filter, map] : ROF (Rayher Order Functions) 
 
 ## Function
 
