@@ -60,3 +60,8 @@ Apresentar os dados
 ## Condicionais 
 
 -- [*] switch
+
+## Métodos em nodejs
+
+-- [*] Importando módulos (require, commom js)
+-- [*] Biblioteca "inquirer" para criar promps interativos
