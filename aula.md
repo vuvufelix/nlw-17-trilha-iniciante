@@ -37,6 +37,7 @@ Apresentar os dados
 -- [*] Operadores de atribuição de valores
 -- [*] Operador de concatenação: +
 -- [*] Operadores de comparação: == != <= >= < >
+-- [*] Spread operator: ... 
 
 ## Objetos
 
@@ -47,6 +48,7 @@ Apresentar os dados
 ## Arrays
 
 -- [*] Lista que contém qualquer tipo de dados
+-- [*] Métodos de array: push, [find, forEach, filter] : ROF (Rayher Order Functions) 
 
 ## Function
 
