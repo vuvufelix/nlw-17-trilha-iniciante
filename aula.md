@@ -65,10 +65,17 @@ Apresentar os dados
 -- [*] switch
 -- [*] if/else
 
-## Métodos em nodejs
+## Módulos em nodejs
 
 -- [*] Importando módulos (require, commom js)
 -- [*] Biblioteca "inquirer" para criar promps interativos
+-- [*] FS (file system)
+
+## JSON
+
+-- [*] JavaScript Object Notation
+-- [*] JSON.parse(): transforma de JSON para JS 
+-- [*] JSON.stringify(): transforma de JS para JSON 
 
 ## Programação assícrona e Promessas
 
